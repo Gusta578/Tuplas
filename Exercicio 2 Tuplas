@@ -1,0 +1,4 @@
+from random import randint
+n = randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10)
+print(f'Eu sorteei o valor {n}')
+print('o menor numero é {} e o maior é {}'.format(min(n), max(n)))
